@@ -1,0 +1,54 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+div.header, div.footer {
+  height: 100px;
+  }
+
+.header {
+  background-color: aqua;  
+}
+
+.left {
+  background-color: orange;  
+}
+
+.mainContent {  
+  background-color: red;  
+  text-align: right;
+  position: relative;
+  width: 250px;
+  
+}
+
+.right {
+  background-color: purple;  
+}
+
+.footer {
+  background-color: blue;
+}
+
+.fixedContent {
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  position: absolute; 
+  bottom: 20px;
+  right: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrab: wrab;
+  height: 600px;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.bar {
+  width: 100px;
+}

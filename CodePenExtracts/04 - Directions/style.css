@@ -1,0 +1,32 @@
+main {  
+  padding: 0px;
+  width: 300px;  
+  border: 10px solid #4285f4;
+}
+
+p {
+  margin: 0px;
+  border: 0px;
+  padding: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.north {
+  background-color: #E67676;
+}
+
+.east {
+  background-color: #F2F062;
+}
+
+.south {
+  background-color: #A9E6E6;
+}
+
+.west {
+  background-color: #7692E4;
+}

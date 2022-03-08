@@ -1,0 +1,22 @@
+div {
+  padding: 0;
+  border: 10px solid #4285f4;
+  margin: 10px;
+  width: 300px;
+}
+
+p {
+  font-family: 'Saira', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.north {
+  background-color: #E67676;
+}
+
+.south {
+  background-color: #A9E6E6;
+}

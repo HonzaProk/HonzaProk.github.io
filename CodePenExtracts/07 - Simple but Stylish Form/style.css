@@ -1,0 +1,29 @@
+main {
+  margin: 10px;    
+}
+
+p, button {
+  font-family: 'Genos', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 600;  
+}
+
+label, input {
+  display: block;  
+  line-height: 2rem;
+  border-radius: 10%;
+}
+
+input {
+  border: 2px solid lightgreen;
+  height: 3em;
+}
+
+button {
+  height: 4em;
+  background-color: lightgreen;
+  border: 0;
+  border-radius: 25%;
+}

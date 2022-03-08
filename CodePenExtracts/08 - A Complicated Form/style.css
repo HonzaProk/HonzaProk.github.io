@@ -1,0 +1,19 @@
+form {
+  width: 500px;
+}
+
+legend {  
+  font-weight: bold;  
+}
+
+.unit {
+  display: block;
+}
+
+#header {
+  text-align: center;
+}
+
+fieldset {
+  margin: 5px;
+}

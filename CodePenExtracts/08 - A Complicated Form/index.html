@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A complicated form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="">
+  <fieldset>
+    <legend id="header"><h1>Interesting application form</h1></legend>
+    <fieldset>
+      <legend>What is your name?</legend>
+      <input type="text" id="nameInput">
+    </fieldset>
+    <fieldset>
+      <legend>What is your favorite color?</legend>
+      <div class="unit">
+        <input type="checkbox" name="red" id="red">
+        <label for="red">Red</label>
+      </div>
+      <div class="unit">
+        <input type="checkbox" name="green" id="green">
+        <label for="green">Green</label>
+      </div>
+      <div class="unit">
+        <input type="checkbox" name="blue" id="blue">
+        <label for="blue">Blue</label>
+      <div class="unit">
+        <input type="checkbox" name="other" id="other">
+        <label for="other">Other</label>
+        <input type="text" name="other" id="otherText">
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Would you like to become a developer?</legend>
+      <div class="unit">
+        <input type="radio" name="wouldLike" id="yes">
+        <label for="yes">Yes.</label>
+      </div>
+      <div class="unit">
+        <input type="radio" name="wouldLike" id="ano">
+        <label for="ano">Ano.</label>
+      </div>
+      <div class="unit">
+        <input type="radio" name="wouldLike" id="igen">
+        <label for="igen">Igen.</label>
+      </div>
+      <div class="unit">
+        <input type="radio" name="wouldLike" id="chinYes">
+        <label for="chinYes">是</label>      
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Why would you like to become a developer?</legend>       <textarea name="why" id="why" cols="50" rows="8">Because...</textarea>
+    </fieldset>
+    <button>Submit</button>
+  </fieldset>
+</form>
+<!-- partial -->
+  
+</body>
+</html>

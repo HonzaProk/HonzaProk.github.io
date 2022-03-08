@@ -1,0 +1,29 @@
+main {
+  max-width: 600px;
+  max-height: 600px;  
+  margin: 10px;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Sen', sans-serif;
+}
+
+img {
+  width: 150px;
+}
+
+div {
+  display: block;
+  margin-bottom: 8px;  
+}
+
+div.imageAnchor {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 10px;  
+}
+
+a {
+  color: blue;  
+}

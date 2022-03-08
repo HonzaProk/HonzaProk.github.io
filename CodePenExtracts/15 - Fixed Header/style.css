@@ -1,0 +1,62 @@
+body {
+  max-width: 1000px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 70px;  
+  justify-content: flex-start;
+  align-items: center;
+  background-color: purple; 
+  column-gap: 2%;
+  padding-left: 100px;  
+}
+
+.cyan {  
+  background-color: cyan;
+  height: 40px;
+}
+
+.shorter {  
+  width: 75px;
+}
+
+.longer {
+  width: 150px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.content {
+   height: 500px;     
+}
+
+.yellow {
+  flex-grow: 4;
+  background-color: yellow;
+}
+
+.lime {
+  flex-grow: 1;
+  background-color: lime;
+}
+
+.footer {
+  background-color: lightgrey;
+  height: 80px;  
+}
+
+.rest{  
+  margin-left: 100px;
+  margin-right: 100px;
+}

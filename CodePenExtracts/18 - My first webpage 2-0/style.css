@@ -1,0 +1,181 @@
+body {
+    margin: 0 20%;
+}
+
+header {            
+    height: 400px;
+    width: 60%;
+    background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    z-index: 1;    
+}
+
+.mainContainer {
+    margin: 400px 0px 0px;
+    z-index: -1;
+    border-top: none;
+        
+}
+
+
+.headerDescription {
+    position: absolute;
+    bottom: 0;
+    margin-left: 20%;
+    padding-left: 20px;
+}
+
+.headerRelative {
+    height: 400px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 75px;
+    line-height: 80px;
+    
+}
+
+header h2 {
+    font-size: 35px;
+    margin: 0;
+    line-height: 40px;
+}
+
+header h2 {
+    color: #2d344c;
+    opacity: 60%;
+}
+
+
+header p {
+    margin-bottom: 0;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.box {
+    margin-top: 40px;    
+}
+
+.box h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-family: 'Volkhov', serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+header, blockquote, a {
+    font-family: 'Oxanium', cursive;
+    color: #222;    
+}
+
+p, ul li {
+    font-family: 'Kanit', sans-serif;
+    color: #222;
+    line-height: 1.5;
+    margin-top: 0;
+    font-size: 1em;    
+}
+
+
+.intro ul {
+    margin-top: 0;
+}
+
+blockquote {
+    margin-left: 0;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #2d344c;
+    color: white;    
+    width: 500px;
+    font-size: 24px;
+    position: relative;
+}
+
+blockquote::before {
+    content: '“';
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+}
+
+footer {
+    border-top: 3px solid black;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.smallbox {
+    padding-left: 20px;
+}
+
+p {
+    text-align: justify;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 50px;
+    border-bottom: 4px solid #2d344c;
+}
+
+.column {
+    background-color: grey;    
+    height: auto;
+    width: 800px;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: relative;    
+}
+
+.site {    
+    margin: 40px auto;        
+    text-align: center;
+    display: flex;    
+}
+
+.site a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.left {
+    background-color: #2d344c;    
+}
+
+.right {
+    background-color: #acb3e1;
+}
+
+.site {
+    position: sticky;
+    top: 400px;
+}
+
+main {
+    overflow-x: scroll;
+    border: none;
+}

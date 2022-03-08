@@ -1,0 +1,63 @@
+main {
+  margin: 5px;
+  font-family: 'Inconsolata', monospace;  
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: purple;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+ul,ol,p {
+  font-size: 1.5rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+li {
+  padding-left: 0.5em;
+}
+
+ul, ol {
+  width: 300px;  
+}
+
+ul {
+  list-style-type: "*";
+  padding-left: 2em;
+}
+
+ol {  
+  padding-left: 2em; 
+  }
+
+.barren {
+  color: grey;
+  background-color: black;
+}
+
+.eurasia {
+  background-color: #E67676;
+}
+
+.america {
+  background-color: #F2F062;
+}
+
+.africa {
+  background-color: #A9E6E6;
+}
+
+.australia {
+  background-color: #7692E4;
+}
+
+.subcontinent {
+  font-weight: 300;
+}

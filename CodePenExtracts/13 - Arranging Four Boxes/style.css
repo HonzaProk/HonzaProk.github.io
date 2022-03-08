@@ -1,0 +1,22 @@
+.container {  
+  background-color: #ffd62a;
+  width: 400px;
+  height: 150px;
+  padding: 0;
+  display: flex;  
+  align-items: flex-end;
+  column-gap: 5px;  
+  flex-direction: row-reverse;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  background-color: #b02afe;
+  list-style-type: none;  
+}
+
+.item {  
+  width: 50px;
+  height: 50px;
+}
