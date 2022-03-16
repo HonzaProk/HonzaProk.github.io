@@ -1,0 +1,139 @@
+/*************************/
+/*  Autor: Honza Prokeš  */
+/*  Zač.: 24.2.2022      */
+
+
+/* Reset okrajů u nadpisů: */
+h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+/* Tělo: reset box-modelu */
+body {
+    box-sizing: content-box;
+}
+
+/* Tělo: jednotné písmo */
+body {
+    font-family: "Curier New", monospace;
+    font-size: 24px;
+}
+
+/* Záhlaví: box-model */
+.header {
+    margin: 0;
+    padding: 10px 10%;
+    text-align: right;    
+    background-color: #333333;
+    line-height: 5
+}
+
+/* Záhlaví: obtékání loga */
+.header img {
+    float: left;
+    width: 5em;
+}
+
+.header a {
+    margin-left: 3%;
+    text-transform: uppercase;
+}
+
+/* Obsah: clearing kvůli floatu v záhlaví */
+.content {
+    clear: left;    
+}
+
+a, h2 {
+    color: #ff0099;
+}
+
+h1, h2 {
+    font-family: 'Maven Pro', sans-serif; 
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 60px;
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+
+/* Obsah: tapeta  na pozadí */
+.content {    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10%;     
+    padding-right: 10%;
+    background-image: url("assets/background.png")
+}
+
+.separator {    
+    margin: 1em auto;    
+    font-size: 2em;
+    font-weight: 400;
+    text-align: center;
+}
+
+dt {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin: 0; 
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

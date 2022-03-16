@@ -1,0 +1,97 @@
+.container {
+    width: 600px;
+    margin: 10px auto;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: font-family: 'Expletus Sans', cursive;
+}
+
+button {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+li {
+    line-height: 1.5;
+    font-family: 'Cuprum', sans-serif;
+  }
+
+.inpt {
+    text-align: center;    
+}
+
+.inpt input {
+    width: 400px;
+}
+
+.inpt button {
+    text-transform: uppercase;    
+}
+
+
+.icon img {
+    width: 24px;   
+
+}
+
+.icon {
+    align-self: flex-end;
+    width: 100px;    
+}
+
+
+.toDoList li {
+    display: flex;
+    flex-direction: row;
+    wrap: nowrap;
+    justify-content: space-between;    
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 18px;
+}
+
+
+.blue {
+    background-color: lightblue;
+}
+
+.done {
+    text-decoration: line-through;
+    color: lightsteelblue;
+}
+
+.text {    
+    width: 400px;
+}
+
+.mousePoiner:hover {
+    cursor: pointer;
+}
+
+#tdBtn {
+    color: white;
+    background-color: black;
+    font-weight: 800;
+}
+
+#tdBtn:hover {
+    background-color: #88ce91;
+}
+
+.checked:hover {
+    background-color: lightsteelblue;
+}
+
+.delete:hover {
+    background-color: lightcoral;
+}
