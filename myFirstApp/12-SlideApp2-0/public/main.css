@@ -1,0 +1,92 @@
+body {
+    --fixedWidth: 1000px;
+    --fixedThumbWidth: 200px;
+    --fixedSpaceBetween: 2px;
+}
+
+main {
+    margin: 0 10%;
+    width: var(--fixedWidth);
+    box-sizing: content-box;    
+}
+
+h1 {
+    margin: 0;
+}
+
+#mainImgContainer{
+    position: relative;    
+}
+
+#mainImgElement {
+    width: var(--fixedWidth);
+    aspect-ratio: 16 / 9;
+}
+
+header {
+    text-align: center;
+    background-color: #25787a;
+    margin: 0;
+    margin-bottom: var(--fixedSpaceBetween);
+    line-height: 1.5;
+    
+}
+
+.arrow {
+    position: absolute;
+    width: 30px;
+    top: 50%;
+}
+
+.arrow:hover {
+    width: 40px;
+    cursor: pointer;
+}
+
+.left {
+    left: 5%;
+}
+
+.right {
+    right: 5%;    
+    transform: rotateY(180deg);    
+}
+
+#description {
+    position: absolute;
+    background-color:#ABB7B7;
+    opacity: 0.75;
+    width: var(--fixedWidth);    
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+#photo-description {
+    font-weight: 600;
+}
+
+#thumbContainer {
+    display: flex;    
+    justify-content: space-between;
+    width: var(--fixedWidth);
+    margin-top: var(--fixedSpaceBetween);
+    box-sizing: content-box;
+}
+
+#thumbContainer img {    
+    max-width: calc(var(--fixedThumbWidth) - var(--fixedSpaceBetween));
+    aspect-ratio: 16 / 9;
+    opacity: 0.7;
+}
+
+#thumbContainer img:nth-child(3) {
+    opacity: 0.9;
+    border: solid 1px black;
+}
+
+#thumbContainer img:hover {    
+    cursor: pointer;
+    opacity: 1;
+}
