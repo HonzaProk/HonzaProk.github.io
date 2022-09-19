@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --navHeight: 60px;
+    --generalPadding: 20px;
+    --basicMargin: 15px;
+    --bgColor: rgb(125, 179, 190);
+    --secondColorFull: rgba(87, 22, 22);    
+    --secondColorLight: rgba(163, 110, 110);
+    --spacing: 2px;
+    --iconSize: 35px;
+    font-family: Kanit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+nav, main {
+    display: flex;
+}
+
+nav {
+    height: var(--navHeight);    
+    background-color: var(--secondColorLight);
+    width: 100%;
+    position: fixed;        
+}
+
+nav h1 {
+    font-size: 2em;
+    letter-spacing: var(--spacing);    
+    color: var(--secondColorFull);
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 4;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+nav .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 400px;      
+    margin: 0 auto;
+}
+
+main {
+    margin-top: var(--navHeight);
+}
+
+main .left {
+    padding: 0 var(--generalPadding);
+    /* background-color: var(--bgColor); */
+    background-color: var(--secondColorLight);
+    font-size: 1.2em;
+}
+
+main .right {
+    padding: 0 var(--generalPadding);    
+}
+
+.sidebar {
+    position: fixed;
+    width: 18.9%;
+}
+
+.box {
+    display: flex;
+    margin: var(--basicMargin) 0;
+    font-size: 1.5em;
+}
+
+.timeline {
+    flex: 1;
+    /* color:rgba(108, 161, 136, 0.861); */
+    color: var(--secondColorLight);
+}
+
+.content {
+    flex: 3;    
+}
+
+main .right h1 {
+    width: 100%;
+    border-bottom: var(--secondColorFull) solid;
+    color: var(--secondColorFull);
+    font-size: 2em;
+}
+
+
+.contacts ul {
+    list-style: none;
+    padding-left: 0;
+    margin: var(--basicMargin) 0;
+}
+
+.contacts li {
+    position: relative;
+    padding-left: calc(1.5 * var(--iconSize));
+    margin-bottom: calc(0.5 * var(--iconSize));
+    font-size: calc(0.6 * var(--iconSize));
+}
+
+.town:before {
+    content: '';
+    width: var(--iconSize);
+    height: var(--iconSize);
+    position: absolute;
+    background-image: url('/public/town.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mail:before {
+    content: '';
+    width: var(--iconSize);
+    height: var(--iconSize);
+    position: absolute;
+    background-image: url('/public/mail.png');
+    background-size: cover;
+    background-position: center;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.about p {
+    text-align: justify;
+}
+
+.techstack p {
+    font-weight: bold;    
+    letter-spacing: calc(0.5 * var(--spacing));
+}
+
+.content h3 {
+    letter-spacing: calc(0.5 * var(--spacing));
+}
+
+.section {
+    margin-top: calc(1.5 * var(--basicMargin));
+}
+
+.about {
+    display: flex;
+    height: calc(100vh - var(--navHeight));    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medailon h3 {    
+    margin-bottom: 10px;
+}
+
+.medailon p {
+    color: var(--secondColorFull);
+}
+
+.link {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-family: inherit;
+    color: whitesmoke;
+    letter-spacing: var(--spacing);
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+}
+
+.dropdown {
+    position: relative;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    background-color: white;
+    left: -30%; 
+    top: calc(100% + .6rem);
+    width: 120%;
+    padding: 20%;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+}
+
+.dropdown-menu a {    
+    color: rgb(182, 53, 53);
+    font-size: 1.2em;  
+    display: block;        
+}
+
+.dropdown-menu a:hover {    
+    color: rgb(71, 21, 21);
+}
+
+.link:hover, .dropdown.active button {
+    color:var(--secondColorFull);
+}
+
+.dropdown.active .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.language {
+    font-weight: 600;
+}

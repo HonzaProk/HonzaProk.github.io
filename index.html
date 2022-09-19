@@ -1,39 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Links to all my Pens</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Kanit:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./public/cv.css">
+    <script src="./public/cv.js" defer></script>
+    <title>Resume - Honza Prokeš</title>
 </head>
+
 <body>
-    <h1>Behold!</h1>
-    <h2>Here is what I have created so far:</h2>
-    <ol>
-        <li><a href="./CodePenExtracts/01 - Play Around With Existing Styles/index.html">Play around</a></li>
-        <li><a href="./CodePenExtracts/02 - Use Headers/index.html">Use headers</a></li>
-        <li><a href="./CodePenExtracts/03 - Velox Zerda Lagopus/index.html">Velox Zerda Lagopus</a></li>
-        <li><a href="./CodePenExtracts/04 - Directions/index.html">Directions</a></li>
-        <li><a href="./CodePenExtracts/05 - Directions Again/index.html">Directions again</a></li>
-        <li><a href="./CodePenExtracts/06 - Lists and Texts/index.html">Lists and Texts</a></li>
-        <li><a href="./CodePenExtracts/07 - Simple but Stylish Form/">Simple but Stylish Form</a></li>
-        <li><a href="./CodePenExtracts/08 - A Complicated Form/index.html">A Complicated Form</a></li>
-        <li><a href="./CodePenExtracts/09 - Links/index.html">Links</a></li>
-        <li><a href="./CodePenExtracts/10 - Images Everywhere/index.html">Images Everywhere</a></li>
-        <li><a href="./CodePenExtracts/11 - Combine Images and Links/index.html">Combine Images and Links</a></li>
-        <li><a href="./CodePenExtracts/12 - Basic Flex Properties/index.html">Basic Flex Properties</a></li>
-        <li><a href="./CodePenExtracts/13 - Arranging Four Boxes/index.html">Arranging Four Boxes</a></li>
-        <li><a href="./CodePenExtracts/14 - A Typical Webpage/index.html">A Typical Webpage</a></li>
-        <li><a href="./CodePenExtracts/15 - Fixed Header/index.html">A Fixed Header</a></li>
-        <li><a href="./CodePenExtracts/16 - All Together/index.html">All Together</a></li>
-        <li><a href="./CodePenExtracts/17 - My first webpage 1-0/index.html">My First Webpage 1.0</a></li>
-        <li><a href="./CodePenExtracts/18 - My first webpage 2-0/index.html">My First Webpage 2.0</a></li>
-        <li><a href="./myFirstWebsite/index.html">My First Website (from 0th Homework)</a></li>
-        <li><a href="./myFirstApp/09-ClickCounter/">Click Counter</a></li>
-        <li><a href="./myFirstApp/10b-TodoList-Advanced/index.html">Advanced Todo List</a></li>
-        <li><a href="./myFirstApp/11-SlideApp/slide.html">My Slideshow App</a></li>
-        <li><a href="./myFirstApp/12-SlideApp2-0/index.html">My Slideshow App 2.0</a></li>
-    </ol>
+    <div class="container">
+        <nav>
+            <div class="left">
+                <h1>Honza Prokeš</h1>
+            </div>
+            <div class="right">
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button>Programmer</button>
+                    <div class="dropdown-menu">
+                        <a href="https://honzaprok.github.io/myFirstApp/12-SlideApp2-0/index.html" target="_blank">Slide Show App</a>
+                        <a href="https://honzaprok.github.io/myFirstApp/10b-TodoList-Advanced/index.html" target="_blank">Simple To Do App</a>
+                    </div>                    
+                </div>                
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button>Translator</button>
+                    <div class="dropdown-menu">
+                        <a href="https://www.databazeknih.cz/prekladatele/jan-prokes-22077" target="_blank">Books</a>
+                        <a href="https://www.ted.com/profiles/5144238/translator" target="_blank">TED Talks</a>                        
+                    </div>                    
+                </div>                
+                <div class="dropdown" data-dropdown>
+                    <button class="link" data-dropdown-button>Writer</button>
+                    <div class="dropdown-menu">
+                        <a href="https://originalniknihy.cz/cs/o-nasich-knihach/o-autorech/34-jan-prokes.html" target="_blank">Children Books</a>                        
+                    </div>                    
+                </div>                                                 
+            </div>
+        </nav>
+        <main>
+            <div class="left">
+                <div class="sidebar">
+                    <div class="about">
+                    <figure>
+                        <img src="./public/my_photo_cut.jpg" alt="">
+                    </figure>
+                    
+                        <div class="medailon">
+                            <h3>About me</h3>
+                            <p>I am a fast learner, eager to learn new things,
+                                and curious about the world. I enjoy traveling,
+                                hiking, and reading interesting books about
+                                science, history, technology, and the current
+                                world in general. </p>
+                        </div>
+                        <div class="contacts">
+                            <ul>
+                                <li class="town">Liberec, Czech Republic</li>
+                                <li class="mail">honzaprokes@seznam.cz</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="techstack section">
+                    <h1>Tech stack</h1>
+                    <div class="box">
+                        <div class="timeline">
+                            Languages
+                        </div>
+                        <div class="content">
+                            <p>JavaScript, TypeScript, Python</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            Frontend
+                        </div>
+                        <div class="content">
+                            <p>HTML, CSS; Vue.js</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            Backend
+                        </div>
+                        <div class="content">
+                            <p>Django, Celery, RabbitMQ; Node.js (Express)</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            Databases
+                        </div>
+                        <div class="content">
+                            <p>SQL basics (MySQL, PostgreSQL); ORM (Django)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="education section">
+                    <h1>Education</h1>
+                    <div class="box">
+                        <div class="timeline">
+                            March — August 2022
+                        </div>
+                        <div class="content">
+                            <h3>Green Fox Academy</h3>
+                            <p>Webb App Developer (superintensive course)</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            2001 — 2009
+                        </div>
+                        <div class="content">
+                            <h3>Palacký University Olomouc</h3>
+                            <h5>Philosophical Faculty</h5>
+                            <p>Czech Philology / Philosophy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="work section">
+                    <h1>Work experience</h1>
+                    <div class="box">
+                        <div class="timeline">
+                            September 2015 — March 2022
+                        </div>
+                        <div class="content">
+                            <h3>Freelancer</h3>
+                            <h5>Book translator, copywriter, editor</h5>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            September 2012 — August 2015
+                        </div>
+                        <div class="content">
+                            <h3>South Moravian Centre of International Mobility</h3>
+                            <h5>Czech language instructor</h5>
+                            <p>Teaching Czech language to foreign students, preparing them to study in Brno and
+                                managing
+                                a foreign Czech Centre.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            July 2007 — September 2012
+                        </div>
+                        <div class="content">
+                            <h3>Kalendář Liberecka, s. r. o.</h3>
+                            <h5>Editor, journalist</h5>
+                            <p>Proof-reading, book editing, writing articles for a regional magazine.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="abroad section">
+                    <h1>Abroad experience</h1>
+                    <div class="box">
+                        <div class="timeline">
+                            2012 — 2015
+                        </div>
+                        <div class="content">
+                            <h3>Yugra State University</h3>
+                            <h5>Khanty-Mansiysk, Russia (Western Siberia)</h5>
+                            <p>Czech language instructor and head of local Czech Center.</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="timeline">
+                            September 2006 — February 2007
+                        </div>
+                        <div class="content">
+                            <h3>Jagiellonian University</h3>
+                            <h5>Cracow, Poland</h5>
+                            <p>Educational stay.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="additional section">
+                    <h1>Additional information</h1>
+                    <div class="box">
+                        <div class="timeline">
+                            Languages
+                        </div>
+                        <div class="content">
+                            <p><span class="language">Czech</span> (native);</p> 
+                            <p><span class="language">English</span> (C1);</p>
+                            <p><span class="language">Russian</span> (B1);</p>
+                            <p><span class="language">German</span> (mostly passive, A2);</p>
+                            <p><span class="language">Polish</span> (mostly passive, A2)</p>                            
+                        </div>
+                    </div>
+                </div>
+        </main>
+    </div>
 </body>
+
 </html>

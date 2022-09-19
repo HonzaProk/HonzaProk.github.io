@@ -133,7 +133,7 @@ class Page {
         this.currentThumbs = document.querySelectorAll('#thumbContainer img');
 
         
-        // This will add eventListener to each thumb every time the thumbs get updated,
+        // This will add eventListener to each thumb every time the thumbs gets updated,
         // so each time I click on a thumb it will be selected as the new main image:
         this.currentThumbs.forEach ( (thumb, index) => 
             thumb.onclick = () => {
